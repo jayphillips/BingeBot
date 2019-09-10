@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BingeBot" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="KIY-Ot-5a0">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BingeBot" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ypL-Xm-T6p">
+                                <rect key="frame" x="153.5" y="89" width="107.5" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bQk-g8-n2z">
+                                <rect key="frame" x="20" y="139" width="374" height="59"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHOWS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYu-bw-Jcc">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="18"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Office, 13 Reasons Why, Grey's Anatomy, That 70's Show" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D05-qm-Iry">
+                                        <rect key="frame" x="0.0" y="18" width="374" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="mQf-Le-Yg5">
+                                <rect key="frame" x="20" y="218" width="374" height="260"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="5d2-Jq-SnF">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="126"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BingeBot has spoken! You should watch:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W6m-nV-EI8">
+                                                <rect key="frame" x="39" y="0.0" width="296" height="18"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;SHOW NAME&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="SiL-hv-qhy">
+                                                <rect key="frame" x="79" y="34" width="216" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjm-a0-Jye">
+                                                <rect key="frame" x="91" y="86" width="192" height="40"/>
+                                                <state key="normal" image="binge-btn"/>
+                                                <connections>
+                                                    <action selector="randomShowBingeButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H4I-W5-Xeu"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="VI8-Mb-Ckg">
+                                        <rect key="frame" x="0.0" y="146" width="374" height="114"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter a binge worthy show" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1kP-Dx-xQy">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="30"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4au-Ot-utU">
+                                                <rect key="frame" x="0.0" y="74" width="374" height="40"/>
+                                                <state key="normal" image="add-show-btn"/>
+                                                <connections>
+                                                    <action selector="addShowButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u2W-Lm-GV4"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bQk-g8-n2z" firstAttribute="top" secondItem="ypL-Xm-T6p" secondAttribute="bottom" constant="20" id="76V-XS-nC6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mQf-Le-Yg5" secondAttribute="trailing" constant="20" id="AxR-nL-6nf"/>
+                            <constraint firstItem="ypL-Xm-T6p" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="CHZ-ca-CkE"/>
+                            <constraint firstAttribute="bottom" secondItem="KIY-Ot-5a0" secondAttribute="bottom" id="Eb4-3I-bLD"/>
+                            <constraint firstItem="KIY-Ot-5a0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="M7P-jY-bns"/>
+                            <constraint firstItem="KIY-Ot-5a0" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="N8S-3Z-NGk"/>
+                            <constraint firstItem="KIY-Ot-5a0" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Rh2-TR-4l1"/>
+                            <constraint firstItem="mQf-Le-Yg5" firstAttribute="top" secondItem="bQk-g8-n2z" secondAttribute="bottom" constant="20" id="WH6-MI-0o2"/>
+                            <constraint firstAttribute="trailing" secondItem="bQk-g8-n2z" secondAttribute="trailing" constant="20" id="gbn-n7-Vhb"/>
+                            <constraint firstItem="bQk-g8-n2z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="oRc-Iv-tOJ"/>
+                            <constraint firstItem="ypL-Xm-T6p" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pkv-s8-kB9"/>
+                            <constraint firstItem="mQf-Le-Yg5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="wKX-7m-5H6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="addShowButton" destination="4au-Ot-utU" id="siw-ua-1dt"/>
+                        <outlet property="addShowStackView" destination="VI8-Mb-Ckg" id="02x-95-Wk7"/>
+                        <outlet property="addShowTextField" destination="1kP-Dx-xQy" id="i9b-bG-bG1"/>
+                        <outlet property="bingeBotSpokenLabel" destination="W6m-nV-EI8" id="ZTl-qr-AjU"/>
+                        <outlet property="randomShowLabel" destination="SiL-hv-qhy" id="ph5-Eh-KsP"/>
+                        <outlet property="randomShowStackView" destination="5d2-Jq-SnF" id="CSp-Ye-1CU"/>
+                        <outlet property="showsLabel" destination="D05-qm-Iry" id="nnT-d3-Frt"/>
+                        <outlet property="showsStackView" destination="bQk-g8-n2z" id="jCh-PE-r7u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="add-show-btn" width="192" height="40"/>
+        <image name="bg" width="375" height="667"/>
+        <image name="binge-btn" width="192" height="40"/>
+    </resources>
+</document>
